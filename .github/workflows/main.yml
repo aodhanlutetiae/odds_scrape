@@ -16,4 +16,4 @@ jobs:
     - run: pip install notebook requests bs4
     
     - name: Run scraper
-      run: jupyter run scrape.ipynb
+      run: jupyter execute scrape.ipynb
