@@ -16,8 +16,8 @@ jobs:
     - run: pip install notebook requests bs4
     - name: Run scraper
       # run: jupyter execute scrape.ipynb
-      # run: jupyter execute letters_scrape.ipynb
-      run: python execute letters_scrape.py
+      run: jupyter execute letters_scrape.ipynb
+      # run: python execute letters_scrape.py #FAILS
 
     - name: Add and commit
       id: add_commit
