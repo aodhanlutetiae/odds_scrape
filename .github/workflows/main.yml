@@ -17,13 +17,7 @@ jobs:
     - name: Run scraper
       # run: jupyter execute scrape.ipynb
       run: jupyter execute letters_scrape.ipynb
-        
-    # - name: Add and commit	
-    #   run: |-	
-    #     git add .	
-    #     git config user.name "Automated"	
-    #     git config user.email "actions@users.noreply.github.com"	
-    #     git commit -m "Latest data" 	
+      run: python execute letters_scrape.py
 
     - name: Add and commit
       id: add_commit
