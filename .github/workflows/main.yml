@@ -17,7 +17,7 @@ jobs:
     - name: Run scraper
       # run: jupyter execute scrape.ipynb
       # run: jupyter execute letters_scrape.ipynb
-      run: python letters_scrape.py #FAILS
+      run: python letters_scrape.py
 
     - name: Add and commit
       id: add_commit
