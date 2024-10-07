@@ -6,3 +6,5 @@
     # git commit -m "Latest data" 	
 
     this was the original commit code before we fixed the 'can't commit if there's nothing new' problem
+
+    We've lost the headers on the final csv file :(
