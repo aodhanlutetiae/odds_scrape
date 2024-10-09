@@ -15,7 +15,6 @@ jobs:
         python-version: '3.9'
     - run: pip install notebook requests bs4
     - name: Run scraper
-      # run: jupyter execute scrape.ipynb
       run: jupyter execute letters_scrape.ipynb
       # run: python letters_scrape.py
 
